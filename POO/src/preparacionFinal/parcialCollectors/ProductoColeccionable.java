@@ -4,13 +4,11 @@ import java.util.ArrayList;
 
 public class ProductoColeccionable extends Coleccionable{
     double peso, volumen;
-    ArrayList<String> caracteristicas;
 
     public ProductoColeccionable(String nombre,double peso, double volumen) {
         super(nombre);
         this.peso = peso;
         this.volumen = volumen;
-        this.caracteristicas = new ArrayList<>();
     }
     public ProductoColeccionable(String nombre,double peso, double volumen, ArrayList<String> caract) {
         super(nombre);
