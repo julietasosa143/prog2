@@ -3,8 +3,9 @@ package preparacionFinal.final9del8;
 import java.util.ArrayList;
 
 public abstract class OpcionMenu {
+    
     String nombre;
-
+    
     public String getNombre() {
         return nombre;
     }
