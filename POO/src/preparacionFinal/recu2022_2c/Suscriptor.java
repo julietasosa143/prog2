@@ -51,7 +51,7 @@ public class Suscriptor {
         return new ArrayList<>(noticiasRecibidas);
     }
     public void agregarNoticia(ElementoNoticia noticia) {
-        if(preferencia.cumple(noticia)){
+        if(preferencia.cumple((Noticia) noticia)){
             noticiasRecibidas.add(noticia);
         }
     }

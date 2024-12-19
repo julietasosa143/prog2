@@ -3,7 +3,7 @@ package preparacionFinal.LoberiaAlquila;
 public class FiltroNot extends Filtro{
     Filtro f;
     public FiltroNot(Filtro f){
-        this.f=f
+        this.f=f;
     }
 
     @Override
